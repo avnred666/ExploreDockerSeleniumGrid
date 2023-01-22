@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-22T19:18:25 IST" name="The Internet Test" finished-at="2023-01-22T19:18:38 IST" duration-ms="13350">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-22T19:18:25 IST" name="The Internet Test" finished-at="2023-01-22T19:18:38 IST" duration-ms="13350">
+      <class name="testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-22T19:18:25 IST" name="setUpClass" finished-at="2023-01-22T19:18:25 IST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@67531e3a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-22T19:18:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-22T19:18:33 IST" duration-ms="7800" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test basic authentication"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test basic authentication of The Internet portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-22T19:18:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-22T19:18:38 IST" duration-ms="5116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test hovers"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Test hovers in The Internet portal"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@313ac989]" started-at="2023-01-22T19:18:38 IST" name="tearDownClass" finished-at="2023-01-22T19:18:38 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- The Internet Test -->
+  </suite> <!-- The Internet Test -->
+</testng-results>
