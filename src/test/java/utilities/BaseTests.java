@@ -15,22 +15,17 @@ public class BaseTests {
     public void browserSetup() throws IOException {
         String browser = System.getProperty("browser");
         System.out.println("inside browsersetup");
-        if(browser != "" && browser != null) {
-            System.out.println("inside first if");
-            if (browser.equalsIgnoreCase("Chrome")){
+        if (browser.equalsIgnoreCase("Chrome")){
                 System.out.println("inside second if");
                 ChromeOptions chromeOptions = new ChromeOptions();
                 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
                 driver.manage().window().maximize();
-            }
-            else if (browser.equalsIgnoreCase("Firefox")) {
+        }
+        else if (browser.equalsIgnoreCase("Firefox")) {
                 FirefoxOptions firefoxOptions = new FirefoxOptions();
                 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxOptions);
                 driver.manage().window().maximize();
-            }
-
         }
-
     }
 
     public void browserTearDown(){
