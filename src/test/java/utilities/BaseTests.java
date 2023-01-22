@@ -14,9 +14,7 @@ public class BaseTests {
 
     public void browserSetup() throws IOException {
         String browser = System.getProperty("browser");
-        System.out.println("inside browsersetup");
         if (browser.equalsIgnoreCase("Chrome")){
-                System.out.println("inside second if");
                 ChromeOptions chromeOptions = new ChromeOptions();
                 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
                 driver.manage().window().maximize();
