@@ -9,7 +9,7 @@ pipeline {
 
     stage('Run maven command') {
       steps {
-        sh 'mvn clean test -Dbrowser="Chrome"'
+        bat 'mvn clean test -Dbrowser="Chrome"'
       }
     }
 
