@@ -3,7 +3,6 @@ package stepdefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import pages.BasicAuthPage;
 import pages.HomePage;
